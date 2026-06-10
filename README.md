@@ -1,8 +1,8 @@
 # neounanue.github.io
 
-Personal site of José Unanue — Senior Software Engineer. Live at [neounanue.github.io](https://neounanue.github.io).
+Personal site of José Unanue — Senior Software Engineer & Founder. Live at [neounanue.github.io](https://neounanue.github.io).
 
-Plain HTML + CSS, no build step, hosted free on GitHub Pages.
+developerFolio-inspired design, rebuilt as plain HTML + CSS + a few lines of vanilla JS — no build step, no frameworks, hosted free on GitHub Pages. Automatic dark/light theme via `prefers-color-scheme`.
 
 ## Editing
 

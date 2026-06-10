@@ -3,106 +3,289 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>José Unanue — Senior Software Engineer</title>
-  <meta name="description" content="José Unanue — Senior Software Engineer in Miami, FL. .NET, C#, Azure, Vue, React, Angular. Building cloud solutions. Bilingual EN/ES.">
-  <meta property="og:title" content="José Unanue — Senior Software Engineer">
-  <meta property="og:description" content=".NET & JS Full Stack Engineer | Azure | Vue, React, Angular | Building cloud solutions | Miami, FL">
+  <title>José Unanue — Senior Software Engineer &amp; Founder</title>
+  <meta name="description" content="José Unanue — Senior Software Engineer & Founder in Miami, FL. 19 years building with .NET, React, and Azure. Founder of ShellCondo, a proptech SaaS for HOA & condominium management.">
+  <meta property="og:title" content="José Unanue — Senior Software Engineer &amp; Founder">
+  <meta property="og:description" content=".NET &amp; React full-stack engineer · Founder of ShellCondo · 19 years of experience · Azure cloud · Miami, FL">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://neounanue.github.io/">
   <meta property="og:image" content="https://neounanue.github.io/assets/profile.jpg">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "José Unanue",
-    "jobTitle": "Senior Software Engineer",
+    "givenName": "José",
+    "familyName": "Unanue",
+    "jobTitle": "Senior Software Engineer & Founder",
+    "description": "Senior software engineer and entrepreneur with 19 years of experience. .NET & React full-stack, Azure cloud, founder of ShellCondo (proptech SaaS for HOA & condominium management).",
     "url": "https://neounanue.github.io",
     "image": "https://neounanue.github.io/assets/profile.jpg",
+    "email": "mailto:jose.unanue@hotmail.com",
     "address": { "@type": "PostalAddress", "addressLocality": "Miami", "addressRegion": "FL", "addressCountry": "US" },
+    "worksFor": { "@type": "Organization", "name": "ShellCondo", "url": "https://shellcondo.com" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Universidad de Matanzas" },
     "sameAs": [
       "https://github.com/neounanue",
       "https://www.linkedin.com/in/unanue/",
       "https://twitter.com/neounanue"
     ],
-    "knowsLanguage": ["en", "es"]
+    "knowsLanguage": ["es", "en", "pt"]
   }
   </script>
 </head>
 <body>
-  <header class="hero">
-    <img src="assets/profile.jpg" alt="Portrait of José Unanue" class="avatar" width="160" height="160">
-    <h1>José Unanue</h1>
-    <p class="tagline">Senior Software Engineer</p>
-    <p class="location">📍 Miami, Florida, USA &nbsp;·&nbsp; 🌐 Bilingual EN/ES</p>
-    <nav class="links" aria-label="Social links">
-      <a href="https://github.com/neounanue" rel="me">GitHub</a>
-      <a href="https://www.linkedin.com/in/unanue/" rel="me">LinkedIn</a>
-      <a href="https://twitter.com/neounanue" rel="me">X / Twitter</a>
-    </nav>
+
+  <nav class="topnav" aria-label="Primary">
+    <a class="brand" href="#top">&lt;Jose /&gt;</a>
+    <div class="topnav-links">
+      <a href="#what-i-do">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#project">Project</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="top">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1>Hi everyone, I'm <span class="grad-text">José</span> <span class="wave" aria-hidden="true">👋</span></h1>
+        <p class="hero-sub">
+          Senior Software Engineer &amp; Founder from Miami, Florida 🌴 — 19 years turning ideas into
+          production software. I build end-to-end SaaS products with <strong>.NET</strong>,
+          <strong>React</strong>, and <strong>Azure</strong>, from product strategy and architecture
+          all the way to CI/CD and production. Founder of <strong>ShellCondo</strong>, a proptech
+          platform for HOA &amp; condominium management.
+        </p>
+        <div class="social" aria-label="Social links">
+          <a class="social-btn" href="https://github.com/neounanue" rel="me" aria-label="GitHub" title="GitHub">
+            <svg viewBox="0 0 16 16" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          </a>
+          <a class="social-btn" href="https://www.linkedin.com/in/unanue/" rel="me" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a class="social-btn" href="https://twitter.com/neounanue" rel="me" aria-label="X (Twitter)" title="X / Twitter">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg>
+          </a>
+          <a class="social-btn" href="mailto:jose.unanue@hotmail.com" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          </a>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#contact">Contact me</a>
+          <a class="btn btn-ghost" href="https://github.com/neounanue">See my work</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/profile.jpg" alt="Portrait of José Unanue" width="320" height="320">
+      </div>
+    </div>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>
-        I'm a senior full-stack engineer specializing in the <strong>.NET ecosystem</strong> and
-        <strong>modern JavaScript frameworks</strong>, with deep experience building and operating
-        <strong>cloud solutions on Azure</strong>. I design and ship end-to-end products — from
-        REST APIs and distributed backends in C# to responsive front ends in Vue, React, and Angular.
-      </p>
-      <p>
-        I work comfortably across the whole lifecycle: architecture, implementation, CI/CD,
-        infrastructure, and production operations. Bilingual in English and Spanish, I've
-        collaborated with distributed teams across the US and Latin America.
-      </p>
+    <!-- ============ WHAT I DO / SKILLS ============ -->
+    <section id="what-i-do" class="section">
+      <h2 class="section-title">What I <span class="grad-text">do</span></h2>
+      <p class="section-sub">FULL-STACK ENGINEER AND FOUNDER WHO LOVES SHIPPING PRODUCTS END TO END</p>
+      <ul class="zap-list">
+        <li>⚡ Build <strong>SaaS products</strong> from zero to production — product strategy, architecture, code, launch</li>
+        <li>⚡ Design <strong>multi-tenant architectures</strong> with role-based access for real-world organizations</li>
+        <li>⚡ Deliver <strong>cloud solutions on Azure</strong> with automated CI/CD across DEV / QA / UAT / PROD</li>
+      </ul>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🧩</div>
+          <h3>Backend</h3>
+          <ul class="chips">
+            <li>C#</li><li>.NET</li><li>ASP.NET Core Web API</li><li>Entity Framework</li><li>SQL Server</li><li>Azure SQL</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🎨</div>
+          <h3>Frontend</h3>
+          <ul class="chips">
+            <li>React</li><li>Next.js</li><li>TypeScript</li><li>Vue</li><li>Angular</li>
+          </ul>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">☁️</div>
+          <h3>Cloud &amp; DevOps</h3>
+          <ul class="chips">
+            <li>Microsoft Azure</li><li>Azure DevOps</li><li>GitHub Actions</li><li>CI/CD</li><li>Entra ID / OpenID Connect</li><li>Firebase</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skill-groups">
-        <div class="skill-group">
-          <h3>Backend</h3>
-          <ul><li>C# / .NET</li><li>ASP.NET Core Web API</li><li>Entity Framework Core</li><li>SQL Server</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>Frontend</h3>
-          <ul><li>Vue</li><li>React</li><li>Angular</li><li>TypeScript / JavaScript</li></ul>
-        </div>
-        <div class="skill-group">
-          <h3>Cloud &amp; DevOps</h3>
-          <ul><li>Microsoft Azure</li><li>CI/CD (GitHub Actions)</li><li>Infrastructure as Code</li><li>Firebase</li></ul>
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-sub">19 YEARS · BANKING → INSURANCE → PAYMENTS → CONSULTING → FOUNDER</p>
+      <ol class="timeline">
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Founder &amp; Principal Owner · <span class="company">ShellCondo</span></h3>
+              <p class="meta">Sep 2020 – Present · Miami-Dade, FL</p>
+            </header>
+            <p>Founded and lead ShellCondo, a SaaS platform for HOA and condominium management.
+            Defined the product strategy and architecture: Next.js/React front end, ASP.NET Web API
+            backend, Azure SQL, Microsoft Entra External ID auth, and automated CI/CD across
+            DEV/QA/UAT/PROD. Role-based platform for owners, managers, and residents covering
+            maintenance, voting, payments, communications, and security. Lead the development team
+            and partnerships with property managers and HOA boards.</p>
+          </article>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Software Engineer III · <span class="company">LTIMindtree</span></h3>
+              <p class="meta">Jun 2023 – Sep 2025 · Miami, FL</p>
+            </header>
+            <p>Enterprise application development for a global technology consulting firm.</p>
+          </article>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Software Engineer III · <span class="company">InComm Payments</span></h3>
+              <p class="meta">Dec 2020 – Jun 2023 · Miami-Dade, FL</p>
+            </header>
+            <p>Built secure, robust payment applications for a fintech leader using cloud services
+            and modern JavaScript frameworks.</p>
+          </article>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Senior Software Engineer · <span class="company">Road America (MAPFRE Asistencia)</span></h3>
+              <p class="meta">Sep 2014 – Nov 2020 · Miami / Fort Lauderdale, FL</p>
+            </header>
+            <p>Roadside-assistance and insurance services platforms built on .NET.</p>
+          </article>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Software Engineer · <span class="company">EMPAI</span></h3>
+              <p class="meta">Dec 2009 – Apr 2014 · Cuba</p>
+            </header>
+            <p>Full-lifecycle .NET web and Windows development: C#, ASP.NET, WCF, Web Services,
+            jQuery, SQL Server, MySQL, NHibernate, Entity Framework.</p>
+          </article>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Software Engineer · <span class="company">Copextel S.A.</span></h3>
+              <p class="meta">Aug 2008 – Aug 2009 · Matanzas, Cuba</p>
+            </header>
+            <p>Sales business applications, databases, and servers.</p>
+          </article>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Networking Professor · <span class="company">IPVCE (Politécnico de Ciencias Informáticas)</span></h3>
+              <p class="meta">Aug 2007 – Aug 2008 · Matanzas, Cuba</p>
+            </header>
+            <p>Taught networking and mentored three technical thesis students.</p>
+          </article>
+        </li>
+        <li class="tl-item">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <article class="tl-card">
+            <header>
+              <h3>Software Engineer · <span class="company">BANDEC (Banco de Crédito y Comercio)</span></h3>
+              <p class="meta">Aug 2006 – Aug 2007 · Matanzas, Cuba</p>
+            </header>
+            <p>BackOffice information systems; member of the Leader's Expert Group.</p>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ FEATURED PROJECT ============ -->
+    <section id="project" class="section">
+      <h2 class="section-title">Featured <span class="grad-text">project</span></h2>
+      <p class="section-sub">WHAT I'M BUILDING RIGHT NOW</p>
+      <div class="project-grid">
+        <article class="project-card featured">
+          <h3>🏢 ShellCondo</h3>
+          <p>Proptech SaaS transforming HOA &amp; condominium management. One role-based platform
+          for owners, managers, and residents: maintenance, voting, payments, communications,
+          and security — built on Next.js, ASP.NET Web API, and Azure.</p>
+          <p class="project-links"><a class="btn btn-primary btn-sm" href="https://shellcondo.com">Visit shellcondo.com →</a></p>
+        </article>
+        <article class="project-card">
+          <h3>🛠 ShellVendor <span class="badge">in the works</span></h3>
+          <p>Vendor management SaaS — connecting communities with trusted service providers.
+          Part of the <a href="https://github.com/CalleMedio">CalleMedio</a> product family.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-card">
+        <div class="edu-icon" aria-hidden="true">🎓</div>
+        <div>
+          <h3>Universidad de Matanzas</h3>
+          <p class="meta">Computer Engineering — Software Engineer degree · 2000 – 2005</p>
         </div>
       </div>
     </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <article class="job">
-        <h3>Unanue LLC — Senior Software Engineer</h3>
-        <p class="period">Current</p>
-        <p>
-          Building multi-tenant SaaS platforms end to end: .NET backends, identity and
-          access management, cloud infrastructure, and modern web front ends with
-          push notifications and real-time features.
-        </p>
-      </article>
-      <!-- TODO: add previous roles from resume -->
+    <!-- ============ LANGUAGES ============ -->
+    <section id="languages" class="section">
+      <h2 class="section-title">Languages</h2>
+      <ul class="lang-list">
+        <li class="lang-card"><span class="lang-flag" aria-hidden="true">🇪🇸</span><div><strong>Spanish</strong><span class="meta">Native</span></div></li>
+        <li class="lang-card"><span class="lang-flag" aria-hidden="true">🇺🇸</span><div><strong>English</strong><span class="meta">Professional</span></div></li>
+        <li class="lang-card"><span class="lang-flag" aria-hidden="true">🇧🇷</span><div><strong>Portuguese</strong><span class="meta">Professional</span></div></li>
+      </ul>
     </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        The best way to reach me is on
-        <a href="https://www.linkedin.com/in/unanue/">LinkedIn</a> — or find my open-source
-        work on <a href="https://github.com/neounanue">GitHub</a>.
-      </p>
+    <!-- ============ CONTACT CTA ============ -->
+    <section id="contact" class="section contact-cta">
+      <h2 class="section-title">Reach <span class="grad-text">out to me</span> 🤙</h2>
+      <p class="section-sub">DISCUSS A PROJECT, A PARTNERSHIP, OR JUST SAY HI — MY INBOX IS OPEN</p>
+      <div class="cta-row center">
+        <a class="btn btn-primary" href="mailto:jose.unanue@hotmail.com">jose.unanue@hotmail.com</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/unanue/">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/neounanue">GitHub</a>
+        <a class="btn btn-ghost" href="https://twitter.com/neounanue">X / Twitter</a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 José Unanue · Built with plain HTML &amp; CSS, hosted free on GitHub Pages.</p>
+    <p>Made with 💜 in Miami · © 2026 José Unanue</p>
+    <p class="footnote">Plain HTML &amp; CSS, no frameworks — hosted free on GitHub Pages.</p>
   </footer>
+
+  <script>
+    // Subtle scroll-reveal, no dependencies.
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.section, .tl-item').forEach(el => { el.classList.add('reveal'); io.observe(el); });
+  </script>
 </body>
 </html>
